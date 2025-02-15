@@ -1,10 +1,11 @@
 .navbar {
     position: fixed; 
     background: transparent; /* No background color (transparent) */
-    padding: 5rem;
+    padding: 3rem;
     z-index: 999;
     width: 100%; 
     filter: blur(0px); 
+    margin-left: 89rem;
 
     /* If you'd like the navbar to overlay on top, 
        make sure other elements have appropriate top-margin/padding. */
@@ -27,5 +28,6 @@ ul.nav-links {
     color: #fff; /* white text color */
     text-decoration: none;
     font-family: 'Roboto', sans-serif; /* use Roboto for the link text */
-    font-weight: 500; /* normal weight (optional) */
+    font-weight: 1000; /* normal weight (optional) */
+    font-size: 1.2rem
   }

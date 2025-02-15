@@ -1,4 +1,8 @@
 /* Container for the entire page */
+canvas {
+  pointer-events: none !important;
+}
+
 .homepage-container {
   width: 100vw;
   height: 100vh;
@@ -23,6 +27,20 @@
   transform: translate(-50%, -50%);
   text-align: center;
   color: white; /* Ensure text is white */
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  display: flex;
+  align-items: baseline; /* Align items to the baseline */
+  justify-content: center;
+}
+
+h5 strong {
+  position: relative;
+  top: 40px; /* Adjust this value as needed */
 }
 
 h1 {
